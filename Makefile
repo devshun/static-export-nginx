@@ -1,3 +1,5 @@
+dev:
+	cd my-app && npm run dev
 build:
 	docker build -t nginx  -f nginx/Dockerfile .
 up:
